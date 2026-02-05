@@ -14,13 +14,13 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","RAM_HACKER_RP")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Power_of_Jani")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME" , "Jani_Music_Robot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME" , "Jani")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "alishaxd")
+ASSUSERNAME = getenv("ASSUSERNAME" , "Jani Assistant")
 # ---------------------------------------------------------
 
 
@@ -36,10 +36,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002014882444))
+LOGGER_ID = int(getenv("LOGGER_ID", -1003656581013))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7995626429))
+OWNER_ID = int(getenv("OWNER_ID", 8540437514))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # config.py
@@ -54,7 +54,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ramavtarchauhan420/JaniMusicLove",
+    "https://github.com/JaniPrivetRepo/Jani-RP-Lover",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -68,10 +68,10 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+ZInYo4WtbRU0NzU1")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+ZInYo4WtbRU0NzU1")
-SOURCE = getenv("SOURCE", "https://t.me/+ZInYo4WtbRU0NzU1")
-CHAT = getenv("CHAT", "https://t.me/+ZInYo4WtbRU0NzU1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Selfish_Jani_Lover")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+a3O_RK3xMbA1ZGZl")
+SOURCE = getenv("SOURCE", "https://t.me/Power_of_Jani")
+CHAT = getenv("CHAT", "https://t.me/+a3O_RK3xMbA1ZGZl")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -139,10 +139,10 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/zu6jm8.jpg"
+    "START_IMG_URL", "https://litter.catbox.moe/k2zjdk.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/zu6jm8.jpg"
+    "PING_IMG_URL", "https://litter.catbox.moe/k2zjdk.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/66b7bb1cf206376dd5ceb-03d047178a9c3418c9.jpg"
 STATS_IMG_URL = "https://graph.org/file/7db127c0ab5acc37bdfa5-30891a03d37366afbe.jpg"
@@ -184,4 +184,4 @@ if SUPPORT_CHAT:
 # ----------------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------------
 
-CLONE_LOGGER = int(getenv("CLONE_LOGGER", -1002158953249))
+CLONE_LOGGER = int(getenv("CLONE_LOGGER", -1003656581013)
